@@ -32,8 +32,8 @@
 if(isset($_POST['button']))
 {
 	extract($_POST);
-	if($q6a!="" OR $q6b!="" OR $q6c!="" OR $q6d!="" OR $q6e!="" OR $q6f!="" OR $q6g!="" OR $q6h!="" OR $q6i!="" OR $q6j!="" OR 
-		$q6k!="" OR $q6l!="" OR $q6m!="" OR $q6n!="")
+	if($q6a=="1" OR $q6b=="1" OR $q6c=="1" OR $q6d=="1" OR $q6e=="1" OR $q6f=="1" OR $q6g=="1" OR $q6h=="1" OR $q6i=="1" OR $q6j=="1" OR 
+		$q6k=="1" OR $q6l=="1" OR $q6m=="1" OR $q6n=="1")
 	{
 		 header('location:yes.php');
 	}
